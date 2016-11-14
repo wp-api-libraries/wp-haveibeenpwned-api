@@ -33,6 +33,12 @@ if ( ! class_exists( 'HaveIBeenPwnedAPI' ) ) {
 		 */
 		private $base_uri = 'https://haveibeenpwned.com/api/v2/';
 
+		/**
+		 * __construct function.
+		 *
+		 * @access public
+		 * @return void
+		 */
 		public function __construct() {
 
 		}
